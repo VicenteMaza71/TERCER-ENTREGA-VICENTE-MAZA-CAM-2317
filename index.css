@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Lato';
+    src: url("fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: 'LatoLight';
+    src: url("fonts/Lato-Light.ttf");
+}
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'LatoThin';
+    src: url("fonts/Lato-Thin.ttf");
+}
+
+
+body {
+    font-family: 'LatoRegular';
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 30%;
+}
+
+
+.Whatsapp {
+    width: 10%;
+    height: 40px;
+    color: white;
+    background-color: #0bf307;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    box-shadow: 5px 5px 10px black;
+}
+
+.list-navegacion {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header {
+    width: 100%;
+    background: rgb(192, 228, 228);
+    background: linear-gradient(0deg, rgba(192, 228, 228, 1) 15%, rgba(11, 241, 241, 1) 100%);
+    padding-bottom: 60px;
+    padding-top: 20px;
+
+
+}
+
+.container-header {
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-header img {
+    width: 40%;
+}
+
+.container {
+    width: 60%;
+}
+
+.container img {
+    width: 60%;
+}
+
+.container p {
+    font-size: 1.75em;
+    width: 70%;
+    font-family: 'LatoLight';
+}
+
+.container button {
+    width: 20%;
+    height: 45px;
+    color: black;
+    background-color: #0c4ea2;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    box-shadow: 5px 5px 10px black;
+}
+
+.flexbox-space-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.seccion-info {
+    background-color: #f67905;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-info h2 {
+    margin: 0px;
+    padding: 0;
+    color: #f7de82;
+    font-family: 'LatoThin';
+    font-size: 2em;
+}
+
+.seccion-info h3 {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    color: white;
+    font-family: 'LatoThin';
+    font-size: 1.7em;
+}
